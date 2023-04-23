@@ -1,0 +1,5 @@
+<launch>
+    <node name="slam_node" pkg="my_slam" type="slam_node.py" output="screen">
+        <remap from="source_pointcloud" to="pcl" />
+    </node>
+</launch>
